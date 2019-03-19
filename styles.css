@@ -1,0 +1,113 @@
+#header{ 
+overflow: auto;
+background:black;
+color: white;
+padding-left: 20px;
+padding-right: 15px;
+}
+img{
+	width: 100%;
+	height: 85px;
+	padding: -25px;
+}
+.logo{
+
+float: left;
+display: inline-block;
+background: black;
+
+}
+.leftmenu ul{
+	list-style: none;
+
+
+}
+.leftmenu ul li{
+
+	display: inline-block;
+	padding: 15px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.leftmenu{
+     margin-left: 10px;
+	float: left;
+	display: inline-block;
+	background: black;
+
+
+}
+.rightmenu ul{
+	list-style: none;
+}
+.rightmenu ul li{
+	display: inline-block;
+	padding: 20px;
+
+}
+.rightmenu{
+	
+	float: right;
+	display: inline-block;
+	background: black;
+}
+#large-image {
+  padding: 150px 30px;
+  background-image: url("av4.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: top; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.description-box{
+	width: 25%;
+}
+.description-box h4{
+	padding-left: 20px;
+	opacity: 0.70;
+	padding-bottom: 0px;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: sans-serif;
+	color: white;
+}
+.description-box h1{
+	margin-top: -40px;
+	opacity: 0.70;
+	font-weight: 700;
+	font-family: serif;
+   font-size: 60px;
+	color: white;
+}
+.description-box h2{
+	margin-top: -35px; 
+    padding: 0px;
+	opacity: 0.70;
+	font-weight: 400;
+	font-family: serif;
+   font-size: 35px;
+	color: white;
+}
+.description-box h6{
+	margin-top: -25px;
+	padding: 0px;
+	opacity: 0.70;
+	font-weight: 400;
+	font-family: serif;
+   font-size: 20px;
+	color: white;
+}
+button{
+	font-size: 25px;
+	font-weight: 400;
+	background-color: rgba(255,255,255,0.15);
+	color: white;
+	padding:10px;
+	padding-right: 10px;
+
+
+}
